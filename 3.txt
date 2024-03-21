@@ -4,8 +4,14 @@ import java.io.PrintStream;
 
 public class Conditions {
     public static void main(String[] args) {
-        int a = 5;
-        int b = 6;
+    Scanner in = new Scanner(System.in);
+    int a = in.nextInt();
+    
+    Scanner in = new Scanner(System.in);
+    int b = in.nextInt();
+
+        //int a = 5;
+        //int b = 6;
 
 
         if (a > b) {
