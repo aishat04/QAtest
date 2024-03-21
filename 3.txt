@@ -2,7 +2,6 @@ package Lesson4;
 
 import java.util.Scanner;
 
-@SuppressWarnings("all")
 public class Conditions {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
