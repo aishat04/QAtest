@@ -1,38 +1,36 @@
 package Lesson4;
 
-import java.io.PrintStream;
+import java.util.Scanner;
 
+@SuppressWarnings("all")
 public class Conditions {
     public static void main(String[] args) {
-    Scanner in = new Scanner(System.in);
-    int a = in.nextInt();
-    
-    Scanner in = new Scanner(System.in);
-    int b = in.nextInt();
+        Scanner in = new Scanner(System.in);
 
-        //int a = 5;
-        //int b = 6;
+        System.out.println("Введите значение переменной a:");
+        int a = in.nextInt();
 
+        System.out.println("Введите значение переменной b:");
+        int b = in.nextInt();
 
         if (a > b) {
             System.out.println("a больше чем b");
-        } else if (a == b); {
-        System.out.println("a равен b");
-        }   else {
-            System.out.println("у больше х");
+        } else if (a == b) {
+            System.out.println("a равен b");
+        } else {
+            System.out.println("b больше a");
 
-            int sum = a + b; {
-                System.out.println(sum);
-            }
-            int diff = a - b; {
-                System.out.println(diff);
-            }
-            int multiply = a * b; {
-                System.out.println(multiply);
-            }
-            double divide = (double) a / b; {
-                System.out.println(divide);
-            }
+            int sum = a + b;
+            System.out.println("Сумма: " + sum);
+
+            int diff = a - b;
+            System.out.println("Разность: " + diff);
+
+            int multiply = a * b;
+            System.out.println("Умножение: " + multiply);
+
+            double divide = (double) a / b;
+            System.out.println("Деление: " + divide);
         }
     }
 }
