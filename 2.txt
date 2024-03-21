@@ -3,21 +3,20 @@ import java.util.Scanner;
 public class Main {
           
     public static void main(String[] args) {
-    //private static Scanner in = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
+    String a = in.nextLine();
 
-           Scanner sc = new Scanner(System/sc);
-            String a = sc.nextLine();
-            String b = sc.nextLine();
+    Scanner in = new Scanner(System.in);
+    String b = in.nextLine();
 
-            if (b == a) {
-                System.out.println("Строки идентичны:");
-            }
-            else  (b != a) {
-                    System.out.println("Строки неидентичны:");
+   if (b == a) {
+   System.out.println("Строки идентичны:");
+ } else  (b != a) {
+   System.out.println("Строки неидентичны:");
 
-            }
-        }
-    }
+   }
+  }
+}
 
 
 //Код не работает ,не пойму что не так 
